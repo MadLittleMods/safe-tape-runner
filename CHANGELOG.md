@@ -1,4 +1,8 @@
 
+## `v0.1.3` - 2015-10-8 
+
+ - Change she-bang line ending so Mac OSX doesn't complain
+
 ## `v0.1.2` - 2015-10-8 
 
  - Change binary to `./bin/safe-tape-runner`

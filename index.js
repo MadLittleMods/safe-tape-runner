@@ -2,9 +2,6 @@ var Promise = require('bluebird');
 
 var exec = require('child_process').exec;
 
-
-
-
 var generateArgString = function(argv) {
 	return Object.keys(argv).reduce(function(prevResult, key) {
 		var value = argv[key];

@@ -1,6 +1,6 @@
 {
   "name": "safe-tape-runner",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Tape runner that always exits with code 0",
   "author": {
     "name": "Eric Eastwood",

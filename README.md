@@ -9,7 +9,7 @@ Exiting with the right code should be the reporters job anyway.
 See the [usage section](https://github.com/MadLittleMods/safe-tape-runner#usage). Just pipe to a reporter like [`tap-spec`](https://www.npmjs.com/package/tap-spec).
 
 
-## Latest version: `v0.1.2`
+## Latest version: `v0.1.3`
 
 ### [Changelog](https://github.com/MadLittleMods/safe-tape-runner/blob/master/CHANGELOG.md)
 
