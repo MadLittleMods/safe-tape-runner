@@ -4,12 +4,12 @@ A tape runner that always exits with code `0`. This allows us to play nice on Wi
 
 Exiting with the right code should be the reporters job anyway.
 
-# But what about CI?
+### But what about CI?
 
 See the [usage section](https://github.com/MadLittleMods/safe-tape-runner#usage). Just pipe to a reporter like [`tap-spec`](https://www.npmjs.com/package/tap-spec).
 
 
-## Latest version: `v0.1.1`
+## Latest version: `v0.1.2`
 
 ### [Changelog](https://github.com/MadLittleMods/safe-tape-runner/blob/master/CHANGELOG.md)
 
@@ -47,3 +47,7 @@ safe-tape-runner lib/**/__tests__/*-test.js
 }
 ```
 
+
+# Testing
+
+`npm test`

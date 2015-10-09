@@ -1,6 +1,6 @@
 {
   "name": "safe-tape-runner",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tape runner that always exits with code 0",
   "author": {
     "name": "Eric Eastwood",
@@ -12,14 +12,26 @@
     "type": "git",
     "url": "https://github.com/MadLittleMods/safe-tape-runner.git"
   },
+  "keywords": [
+    "tape",
+    "tap",
+    "tests",
+    "testing",
+    "test-runner",
+    "glob",
+    "babel",
+    "harmony",
+    "es6",
+    "esnext"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "babel-tape-runner ./tests/test.js | tap-spec",
     "test-unformatted": "babel-tape-runner ./tests/test.js",
-    "safe-tape-runner": "node ./bin/cmd.js"
+    "safe-tape-runner": "node ./bin/safe-tape-runner"
   },
   "bin": {
-    "safe-tape-runner": "./bin/cmd.js"
+    "safe-tape-runner": "./bin/safe-tape-runner"
   },
   "devDependencies": {
     "tape": "^4.2.1"

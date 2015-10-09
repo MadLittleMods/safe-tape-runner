@@ -7,7 +7,7 @@ let test = function(name, argString, expectedExitCode) {
 	tape(name, function(t) {
 		t.plan(1);
 
-		var pathToRunnerCli = path.join(__dirname, '../bin/cmd.js');
+		var pathToRunnerCli = path.join(__dirname, '../bin/safe-tape-runner');
 		var child = exec('node ' + pathToRunnerCli + ' ' + argString, function(err, stdout, stderr) {
 			//console.log('stdout', stdout, 'e', err, 'stderr', stderr);
 		});
