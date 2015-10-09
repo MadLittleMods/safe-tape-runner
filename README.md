@@ -5,7 +5,7 @@ A tape runner that always exits with code `0`. This allows us to play nice on Wi
 Exiting with the right code should be the reporters job anyway.
 
 
-## Latest version: `v0.1.0`
+## Latest version: `v0.1.1`
 
 ### [Changelog](https://github.com/MadLittleMods/safe-tape-runner/blob/master/CHANGELOG.md)
 
@@ -36,11 +36,9 @@ safe-tape-runner lib/**/__tests__/*-test.js
 `package.json`
 ```json
 {
-	// ...
-	"scripts": {
-		"test": "npm run test-unformatted | tap-spec",
-		"test-unformatted": "safe-tape-runner ./tests/test.js"
-	}
-	// ...
+  "scripts": {
+    "test": "npm run test-unformatted | tap-spec",
+    "test-unformatted": "safe-tape-runner ./tests/test.js"
+  },
 }
 ```

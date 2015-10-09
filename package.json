@@ -1,6 +1,6 @@
 {
   "name": "safe-tape-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tape runner that always exits with code 0",
   "author": {
     "name": "Eric Eastwood",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "tape": "^4.2.1"
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-tape-runner": "^1.2.0",
     "bluebird": "^2.10.2",
     "string-to-stream": "^1.0.1",
